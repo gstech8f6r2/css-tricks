@@ -1,0 +1,64 @@
+body{font-family:"Source Sans Pro";color:#ffa}
+
+
+
+.spacer{ height:70px;}
+
+
+#cover{padding:100px;text-align: center;background:url("img/bg-cover.jpg")no-repeat center center;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+  .data{padding:20px;color:#ffb;font-size: 16px;}
+
+  .titolo{font-size: 70px; font-weight: bold; color:#ffb;margin:30px;}
+
+  .sottotitolo{font-size: 25px;color:#ffb;max-width:500px;margin:0 auto;}
+
+  
+  .button{background:lime;color:#333;padding:15px 40px;text-transform: uppercase;text-decoration: underline;;display:inline-block;border-radius:27px;margin-top:22px;}
+
+    .button:hover{background-color:lightgreen;}
+
+
+
+<!-- qui codice per ingrandimento arrow icona -->
+  .arrow{font-size:80px;color:#f55; margin:2%;}
+
+  .arrow:hover{font-size:82px; color:orange;}
+
+
+
+
+
+#focus{background-color:purple;;margin:auto;}
+#focus p{color:#fff}
+
+.row{margin-top:2%;padding:3%;}
+
+
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+
+.clearfix { display: inline-block; }
+
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+
+.clearfix { display: block; }
+
+/* close commented backslash hack */
+
+
+}
+
